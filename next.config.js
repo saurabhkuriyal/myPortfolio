@@ -1,18 +1,19 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   output: 'export',
-//   eslint: {
-//     ignoreDuringBuilds: true,
-//   },
-//   images: { unoptimized: true },
-// };
-
-// module.exports = nextConfig;
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
   output: 'standalone',
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  images: { unoptimized: true },
+  reactStrictMode: true,
 };
 
 module.exports = nextConfig;
+
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   reactStrictMode: true,
+//   output: 'standalone',
+// };
+
+// module.exports = nextConfig;
