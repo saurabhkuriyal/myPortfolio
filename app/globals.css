@@ -80,3 +80,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.text-orange-500{
+  color: rgb(215, 100, 23);
+}

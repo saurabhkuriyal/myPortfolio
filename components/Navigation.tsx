@@ -1,9 +1,9 @@
 "use client"
 
+import { cn } from '@/lib/utils'
+import { Briefcase, Code2, Mail, User2 } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { cn } from '@/lib/utils'
-import { Code2, User2, Briefcase, Mail } from 'lucide-react'
 
 export default function Navigation() {
   const pathname = usePathname()
